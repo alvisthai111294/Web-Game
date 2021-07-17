@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" 
+          type="image/png" 
+          href="./sprites/decoration/torch.png">
+    <meta charset="utf-8" />
+  
+    <title>2D Side-Scrolling Game</title>
+
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./animator.js"></script>
+    <script type="text/javascript" src="./scenemanager.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./boundingbox.js"></script>
+    <script type="text/javascript" src="./maincharacter.js"></script>
+    <script type="text/javascript" src="./background.js"></script>
+    <script type="text/javascript" src="./bricks.js"></script>
+    <script type="text/javascript" src="./decorations.js"></script>
+
+
+    <script type="text/javascript" src="./meleeEnemies.js"></script>
+    <script type="text/javascript" src="./rangeEnemies.js"></script>
+    <script type="text/javascript" src="./otherEnemies.js"></script>
+
+    <script type="text/javascript" src="./helpers.js"></script>
+    <script type="text/javascript" src="./projectiles.js"></script>
+    <script type="text/javascript" src="./levels.js"></script>
+    <script type="text/javascript" src="./effects.js"></script>
+    <script type="text/javascript" src="./items.js"></script>
+
+    <script type="text/javascript" src="./boss.js"></script>
+    <script type="text/javascript" src="./bossSkills.js"></script>
+
+
+
+  </head>
+  <body>
+    <canvas
+      id="gameWorld"
+      width="1000"
+      height="650"
+      style="background: #049cd8"
+      tabindex="0"
+      autofocus
+    ></canvas>
+    <div>Movement: Left-Right arrow keys<br /></div>
+    <div>Jump:Space bar or Up arrow keys</div>
+    <div>Attack: Q, W, and E keys</div>
+    <div>You CANNOT kill the running horses, jump and dodge them !!!</div>
+   
+    <!-- <div>
+      <br />
+      <input type ="checkbox" id ="debug"> Debug <input type ="checkbox" id ="mute">Mute<input type = "range" id = "volume" min ="0" max = "1" value ="0.1" step = "0.05"> Volume
+    </div> -->
+  </body>
+</html>
